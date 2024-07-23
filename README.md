@@ -3,6 +3,11 @@
 ## 实现胜负判决的功能
 ## 实现悔棋等功能
 
+# 不用VS的编译语句(C99标准)
+```
+gcc main.c -o main.exe -lgdi32
+```
+
 # 用到的库
 WIN32 SDK，只能在Windows上编译运行
 
@@ -10,4 +15,7 @@ WIN32 SDK，只能在Windows上编译运行
 * main.exe 主程式
 * main.c 主程式源代码
 * doublectrl.c 黑白子都可以双控（键盘鼠标）源代码
-* compile_words.txt 不用VS的编译语句
+* MyWindows.c 原项目 [wangying2016/GobangGame](https://github.com/wangying2016/GobangGame) 代码，实现基本功能
+
+# 特别鸣谢
+项目 [wangying2016/GobangGame](https://github.com/wangying2016/GobangGame)

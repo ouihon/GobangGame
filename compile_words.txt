@@ -1,1 +1,0 @@
-gcc MyWindows.c -o a.exe -lgdi32
